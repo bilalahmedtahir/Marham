@@ -1,0 +1,77 @@
+
+body {
+    text-align: center; /* Center horizontally */
+  }
+.home {
+    background-color: white;
+    /* display: inline-block; Center horizontally */
+  }
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: white;
+  }
+  
+  .card {
+    margin: 30px;
+  }
+
+  /* Header container */
+.header {
+    background-color: white; /* Background color for the header */
+    padding: 16px; /* Padding around the header */
+    color: #fff; /* Text color for the header content */
+  }
+  
+  /* Header content container */
+  .header-content {
+    max-width: 1200px; /* Maximum width for the header content */
+    margin: 0 auto; /* Center the content horizontally */
+  }
+  
+  /* Logo styling */
+  .logo {
+    max-width: 100px; /* Ensure the logo fits within its container */
+    max-height: 50px;
+  }
+  
+  /* Search bar styling */
+  .search-bar {
+    width: 100%; /* Take up the full width of its container */
+  }
+  
+  /* View Cart button styling */
+  .cart-button {
+    text-align: right; /* Align the button to the right */
+  }
+  
+  /* Menu items styling */
+  .ant-menu-horizontal {
+    background-color: transparent; /* Make the menu background transparent */
+    border: none; /* Remove border from the menu */
+    font-size: 16px; /* Adjust the font size */
+  }
+  
+  /* Menu item link styling */
+  .ant-menu-item {
+    margin: 0 16px; /* Add horizontal spacing between menu items */
+  }
+  
+  /* Menu item link hover effect */
+  .ant-menu-item:hover {
+    border-bottom: 2px solid #fff; /* Add a bottom border on hover */
+  }
+  
+  /* Active menu item styling */
+  .ant-menu-item-active {
+    border-bottom: 2px solid #fff; /* Highlight the active menu item */
+  }
+
+
+  .tabs-container {
+    width: 20%;
+    margin: 0 auto; /* Center horizontally */
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the tabs horizontally */
+  }
