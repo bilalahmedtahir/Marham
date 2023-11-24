@@ -28,22 +28,22 @@ const items: MenuItem[] = [
   },
   {
     label: "About Us",
-    key: "/about",
+    key: "/pages/about",
     icon: <AppstoreOutlined />,
   },
   {
     label: "Pharmacy",
-    key: "/pharmacy",
+    key: "/pages/pharmacy",
     icon: <AppstoreOutlined />,
   },
   {
     label: "Search Doctors",
-    key: "/doctor",
+    key: "/pages/doctor",
     icon: <AppstoreOutlined />,
   },
   {
     label: "Contact us",
-    key: "/contact",
+    key: "/pages/contact",
     icon: <AppstoreOutlined />,
   },
 ];
