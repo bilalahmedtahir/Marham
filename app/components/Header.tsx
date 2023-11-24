@@ -38,7 +38,7 @@ const items: MenuItem[] = [
   },
   {
     label: "Search Doctors",
-    key: "/doctors",
+    key: "/doctor",
     icon: <AppstoreOutlined />,
   },
   {
