@@ -44,8 +44,8 @@ const HomeScreen: React.FC = () => {
                 <Image src={maleImage} alt="image 1" style={{ height: 200 }} />
                 <div>
                   <h1>Orthopedic</h1>
-                  <p style={{ fontWeight: 'bold' }}>Dr. Mohammad Ahmed</p>
-                  <p style={{}}>MBBS, MCPS, MSc</p>
+                  <div style={{ fontWeight: 'bold' }}>Dr. Mohammad Ahmed</div>
+                  <div style={{}}>MBBS, MCPS, MSc</div>
                   <span>
                     <CalendarOutlined /> Not Available
                   </span>
@@ -62,8 +62,8 @@ const HomeScreen: React.FC = () => {
             <Image src={femaleImage} alt="image 1" style={{height:200}}  />
             <div> 
               <h1>Orthpedic</h1>
-              <p style={{fontWeight:'bold'}}>Dr. Mohammad Ahmed</p>
-              <p style={{}}>MBBS, MCPS, MSc</p>
+              <div style={{fontWeight:'bold'}}>Dr. Mohammad Ahmed</div>
+              <div style={{}}>MBBS, MCPS, MSc</div>
               <span>
               <CalendarOutlined /> Not Available
               </span>
@@ -80,8 +80,8 @@ const HomeScreen: React.FC = () => {
             <Image src={maleImage} alt="image 1" style={{height:200}}  />
             <div> 
               <h1>Orthpedic</h1>
-              <p style={{fontWeight:'bold'}}>Dr. Mohammad Ahmed</p>
-              <p style={{}}>MBBS, MCPS, MSc</p>
+              <div style={{fontWeight:'bold'}}>Dr. Mohammad Ahmed</div>
+              <div style={{}}>MBBS, MCPS, MSc</div>
               <span>
               <CalendarOutlined /> Not Available
               </span>
@@ -98,8 +98,8 @@ const HomeScreen: React.FC = () => {
             <Image src={femaleImage} alt="image 1" style={{height:200}}  />
             <div> 
               <h1>Neurology</h1>
-              <p style={{fontWeight:'bold'}}>Dr. Fatima Ahmed</p>
-              <p style={{}}>MBBS, MCPS, MSc</p>
+              <div style={{fontWeight:'bold'}}>Dr. Fatima Ahmed</div>
+              <div style={{}}>MBBS, MCPS, MSc</div>
               <span>
               <CalendarOutlined /> Not Available
               </span>
@@ -124,19 +124,19 @@ const HomeScreen: React.FC = () => {
             Hospital Karachi
           </h1>
 
-          <p style={{ color: "GrayText" }}>
+          <div style={{ color: "GrayText" }}>
             In the process of internal desktop applications development, many
             different design specs and implementations would be involved,
             which might cause designers and developers difficulties and
             duplication and reduce the efficiency of development.
-          </p>
+          </div>
         </div>
       </Col>
     </Row>
     <Divider orientation="center">We made it simple
-   <p>
+   <div>
     how it <span style={{color:'blue', fontWeight:'bold'}}>WORKS</span>
-    </p> 
+    </div> 
     </Divider>
     <Row justify={"center"} align="middle" style={{padding:48}} gutter={16}>
       <Col span={4}>
@@ -148,10 +148,10 @@ const HomeScreen: React.FC = () => {
             twoToneColor="#eb2f96"
             style={{ color: "blue", fontSize: "50px" }}
           />
-          <p style={{ color: "black" }}>
+          <div style={{ color: "black" }}>
             Search
-            <p style={{ fontWeight: "bold", fontSize: "20PX" }}>Doctor</p>
-          </p>
+            <div style={{ fontWeight: "bold", fontSize: "20PX" }}>Doctor</div>
+          </div>
         </span>
       </Col>
       <Col span={4}>
@@ -162,10 +162,10 @@ const HomeScreen: React.FC = () => {
             twoToneColor="#eb2f96"
             style={{ color: "blue", fontSize: "50px" }}
           />
-          <p style={{ color: "black" }}>
+          <div style={{ color: "black" }}>
           Get Instant
-            <p style={{ fontWeight: "bold", fontSize: "20PX" }}>Appointment</p>
-          </p>
+            <div style={{ fontWeight: "bold", fontSize: "20PX" }}>Appointment</div>
+          </div>
         </span>
       </Col>
       <Col span={4}>
@@ -175,10 +175,10 @@ const HomeScreen: React.FC = () => {
             twoToneColor="#eb2f96"
             style={{ color: "blue", fontSize: "50px" }}
           />
-          <p style={{ color: "black" }}>
+          <div style={{ color: "black" }}>
           Leave Your
-            <p style={{ fontWeight: "bold", fontSize: "20PX" }}>Feedback</p>
-          </p>
+            <div style={{ fontWeight: "bold", fontSize: "20PX" }}>Feedback</div>
+          </div>
         </span>
       </Col>
     </Row>
@@ -191,7 +191,7 @@ const HomeScreen: React.FC = () => {
             <Image src={article1} alt="image 1" style={{height:200}}  />
             <div> 
               <h3 style={{color:"green"}}>Family Medicine</h3>
-              <p style={{}}>World Childrens Day Celebration At Our Hospital</p>
+              <div style={{}}>World Childrens Day Celebration At Our Hospital</div>
               <span>
               <ClockCircleOutlined /> 20 Dec 2023
               </span>
@@ -209,7 +209,7 @@ const HomeScreen: React.FC = () => {
             <Image src={article2} alt="image 1" style={{height:200}}  />
             <div> 
             <h3 style={{color:"green"}}>Blog</h3>
-              <p style={{}}>Blood Donation For Thelesimia Patiant</p>
+              <div style={{}}>Blood Donation For Thelesimia Patiant</div>
               <span>
               <ClockCircleOutlined /> 20 Dec 2023
               </span>
@@ -227,7 +227,7 @@ const HomeScreen: React.FC = () => {
             <Image src={article3} alt="image 1" style={{height:200}}  />
             <div> 
             <h3 style={{color:"green"}}>Default</h3>
-              <p style={{}}>Laproscopic Surgery</p>
+              <div style={{}}>Laproscopic Surgery</div>
               <span>
               <ClockCircleOutlined /> 20 Dec 2023
               </span>

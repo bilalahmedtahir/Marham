@@ -1,8 +1,6 @@
 import React from 'react';
 import { Row, Col, Layout, Divider } from 'antd';
 
-const { Footer } = Layout;
-
 const FooterComponent: React.FC = () => {
   return (
     <div style={{ background: '#76bc21', padding: '72px 0' }}>
